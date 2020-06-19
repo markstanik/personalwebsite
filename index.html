@@ -7,35 +7,94 @@
         <link href = "style.css" rel="stylesheet">
     </head>
 <body>
-        <!-- Navigation -->
-        <nav class = "navbar navbar-expand-md navbar-light bg-light sticky-top">
-        <div class -= "container-fluid">
-            <a class = "navbar-brand" href="#"><img src= "img/logo.png"></a>
-            <button class ="btn" type ="button" data-toggle = "collapse"
-            data-target="#navbarResponsive">
-                <span class= "navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class = "navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Work Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Resume/Transcript</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Me</a>
-                    </li>
-                </ul>
+        
+        
+        <!-- Front-->
+        <a id ="frontpage">
+            <div class = "container-fluid container-fluid-frontpage">
+                <!-- Navigation -->
+        <nav class = "navbar navbar-expand-md navbar-light bg-transparent sticky-top">
+            <div class = "container-fluid">
+                
+               <!--<button class ="btn btn-nav" type ="button" data-toggle = "collapse"
+                data-target="#navbarResponsive">
+                    <span class= "navbar-toggler-icon"></span>
+                </button>--> 
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class = "navbar-nav ml-auto">
+                        <li class="nav-item active ">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about me">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Work Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Resume/Transcript</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
+            </nav>
+                    <div class="col-12">
+                        <div class = "frontpage-caption text-center">
+                            <div class = "profile-image">
+                                <img src= "img/frontpic.png">
+                            </div>
+                            <h1 class= "display-3">Mark R. Stanik</h1>
+                            <h2>Student Developer</h2>
+                        </div>
+                        
+
+
+                    </div>
+                </div>
             </div>
-        </div>    
-        </nav>
+            </a>
+            <!-- Welcome -->
+        <a id ="about me">
+            <div class = "container-fluid padding">
+                <div class = "row welcome ">
+                    <div class="col-12 text-center">
+                        <h1 class = "display-4">About Me</h1>
+                    </div>
+                    <hr>
+                    <div class ="col-6">
+                        <p class = "second">I am currently a rising junior at Rutgers University with plans to double major in computer engineering
+                            and computer science. I have a passion for taking the knowledge that I have and using that to help as many people as I can.
+                            While for now I use it as Learning Asisstant to help others get into the Computer Science field, I hope that I can also 
+                            begin creating projects that will have an impact on the world. Besides teaching, I also spend
+                            a lot of time learning and perfecting different languages and Operating Systems. Currently, I am learning to utilize Kotlin
+                            in Android Studio and putting time into creating small games in Unity. 
+                        </p>
+
+                        <p class ="second">I also have many interests outside of programming as well. I love both watching and playing sports, my favorite being 
+                            basketball, and have 
+                            also begun to play poker with my friends. I also enjoy travelling abroad and recently have been to both Beijing and Montreal. 
+                            Besides this, I also enjoy playing video games in my free time, currently playing both Hearthstone and Valorant.
+                        </p>
+                    </div>
+                    <div class = "col-3">
+                        <div class = "chinaImg">
+                            <img src = "img/china.jpg">
+                        </div>
+                    </div>
+                    <div class = "col-3">
+                        <div class = "montrealImg">
+                            <img src = "img/montreal.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </a>
         <!-- Image Slider-->
         <div id="slides" class ="carousel slide" data-ride="carousel">
             <ol class= "carousel-indicators">
@@ -63,16 +122,80 @@
                 <span class="sr-only">Next</span>
               </a>
         </div>
-        <div id = "container">
-        <div id = "general">
         <!-- Jumbotron-->
         <div class="container-fluid">
-        <div class="row jumbotron">
-            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+            <div class="row jumbotron">
+                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
                     <p class = "lead">WORK IN PROGRESS</p>
+                </div>
+                <div class = "col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                    <a href="#"><button type="button" class = "btn btn-secondary">Resume</button></a>
+                    
+                </div>
             </div>
         </div>
+        
+        <!-- Work Experience-->
+        <a id = "work experience">
+            <div class = "container-fluid padding">
+                <div class = "row welcome text-center">
+                    <div class = "col-6">
+                        <h1 class = "display-4">Work</h1>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <!-- Background -->
+        <figure>
+            <div class = "fixed-wrap">
+                <div id = "fixed"></div>
+            </div>
+        </figure>
+        <!-- Helpful Links -->
+        <div class ="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class = "display-4">Links</h1>
+                </div>
+                <hr>
+            </div>    
         </div>
+        <!-- Card Links -->
+        <div class ="container-fluid padding">
+            <div class ="row row-card">
+                <div class = "col-md-3">
+                    <div class = "card">
+                        <img class ="card-img-top" src = "img/github.svg">
+                        <div class = "card-body">
+                            <h4 class="card-title">GitHub</h4>
+                            <a href="https://github.com/markstanik" class = "btn btn-outline-secondary">See Github</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "col-md-3">
+                    <div class = "card">
+                        <img class ="card-img-top" src = "img/linkedin.png">
+                        <div class = "card-body">
+                            <h4 class="card-title">LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/mark-stanik-992617152/" class = "btn btn-outline-secondary">See LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "col-md-3">
+                    <div class = "card">
+                        <img class ="card-img-top" src = "img/gmail.png">
+                        <div class = "card-body">
+                            <h4 class="card-title card-title-gmail">Gmail</h4>
+                            <a href="mailto:mark.stanik@gmail.com" class = "btn btn-outline-secondary">Send Email</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
             
 
 <!-- JS files: jQuery first, then Popper.js, then Bootstrap JS -->

@@ -1,9 +1,108 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+html, body {
+background-color: #A0A0A0; 
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+}
+/*Front Page*/
+.container-fluid-frontpage{
+  background: url("img/fullback2.jpg");
+}
+.navbar{
+  padding: .8rem;
 
+}
+.navbar-nav li{
+  padding-right: 90px;
+  padding-left: 90px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+  color: white !important;
+  text-shadow: 5px 5px 10px #000 !important;
+}
+.profile-image{
+  padding-top: 250px;
+}
+.frontpage-caption h1{
+  
+  text-shadow: 1px 1px 10px #000;
+}
+.frontpage-caption h2{
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 260px;
+}
+/*About Me*/
+.welcome{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  text-shadow: 1px 1px 10px #000;
+}
+.welcome hr{
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
 
+.second{
+  text-indent: 25px;
+  
+}
+.chinaImg{
+  position: relative;
+  
+}
+.chinaImg img{
+  height: 218px;
+  width: 290px;
+  outline: solid #808080;
+  
+}
+.montrealImg{
+  position: relative;
+  padding-left: 50px;
+  
+  
+}
+.montrealImg img{
+  
+  height: 300px;
+  width: 227px ;
+  outline: solid #808080;
+  
+}
 
+.carousel-inner img{
+  width: 50%;
+  height: 10%;
 
+}
+.jumbotron{
+  padding: 1rem;
+  border-radius:0;
+}
+
+.padding{
+  padding-bottom: 2rem;
+}
+
+.card {
+  padding: 2rem;
+}
+
+.row-card{
+  margin-left: 25rem;
+  
+}
+
+.card-title-gmail{
+  margin-top: 65px;
+}
 
 
 
@@ -20,14 +119,14 @@
 @media (max-width: 576px) {
   
 }
-
 .btn {
-  position: relative;
-  left: 1100px;
+  
 }
+
+
 .carousel-inner {
   position: relative;
-  left: 850px
+  
 }
 
 /*---Firefox Bug Fix --*/
