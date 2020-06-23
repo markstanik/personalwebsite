@@ -9,15 +9,19 @@ background-color: #A0A0A0;
 }
 /*Front Page*/
 .container-fluid-frontpage{
-  background: url("img/fullback2.jpg");
+  background: url("img/fullback2.png");
+}
+.container-fluid-body{
+  background: url("img/darkbackground.png");
+  background-size: cover;
 }
 .navbar{
   padding: .8rem;
 
 }
 .navbar-nav li{
-  padding-right: 90px;
-  padding-left: 90px;
+  padding-right: 150px;
+  padding-left: 120px;
 }
 .nav-link {
   font-size: 1.1em !important;
@@ -33,7 +37,24 @@ background-color: #A0A0A0;
 }
 .frontpage-caption h2{
   text-shadow: 1px 1px 10px #000;
-  padding-bottom: 260px;
+  
+}
+.icons{
+  padding-top: 10px;
+  padding-bottom: 240px;
+}
+.fa-github{
+  padding-right: 5px;
+  color: white !important;
+}
+.fa-linkedin{
+  padding-right: 5px;
+  padding-left: 5px;
+  color: white !important;
+}
+.fa-file{
+  padding-left: 5px;
+  color: white !important;
 }
 /*About Me*/
 .welcome{
@@ -47,11 +68,6 @@ background-color: #A0A0A0;
   width: 95%;
   margin-top: .3rem;
   margin-bottom: 1rem;
-}
-
-.second{
-  text-indent: 25px;
-  
 }
 .chinaImg{
   position: relative;
@@ -75,6 +91,47 @@ background-color: #A0A0A0;
   width: 227px ;
   outline: solid #808080;
   
+}
+/*Skills*/
+.skills{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  text-shadow: 1px 1px 10px #000;
+}
+.skills hr{
+  border-top: 2px solid white;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+.second{
+  text-indent: 25px;
+  
+}
+.skills-text{
+  text-indent: 25px;
+  padding-top: 70px;     
+}
+/*Work*/
+.work{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.work hr{
+  border-top: 2px solid white;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+/*Footer*/
+.container-fluid-footer{
+  padding-left: 100px;
+  background-color:white;
+  color: black !important
 }
 
 .carousel-inner img{
@@ -119,9 +176,7 @@ background-color: #A0A0A0;
 @media (max-width: 576px) {
   
 }
-.btn {
-  
-}
+
 
 
 .carousel-inner {
@@ -137,7 +192,7 @@ background-color: #A0A0A0;
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
-/*--- Fixed Background Image --*/
+/*--- Fixed Background Image 
 figure {
   position: relative;
   width: 100%;
@@ -166,6 +221,7 @@ figure {
           transform: translateZ(0);
   will-change: transform;
 }
+--*/
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
     padding: 1rem;

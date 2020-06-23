@@ -5,6 +5,7 @@
         <title> Mark Stanik's Website</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link href = "style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/e89c3cae24.js" crossorigin="anonymous"></script>
     </head>
 <body>
         
@@ -29,16 +30,13 @@
                             <a class="nav-link" href="#about me">About Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Work Experience</a>
+                            <a class="nav-link" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
+                            <a class="nav-link" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Resume/Transcript</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Me</a>
+                            <a class="nav-link" href="#contact me">Contact Me</a>
                         </li>
                     </ul>
                 </div>
@@ -51,13 +49,18 @@
                             </div>
                             <h1 class= "display-3">Mark R. Stanik</h1>
                             <h2>Student Developer</h2>
+                            <div class = "icons">
+                                <a class = "link-icon" href ="https://github.com/markstanik"><i class="fab fa-github fa-4x"></i></a>
+                                <a class = "link-icon" href ="https://www.linkedin.com/in/mark-stanik-992617152/"><i class="fab fa-linkedin fa-4x"></i></a>
+                                <a class = "link-icon" href ="docs/resume.pdf"><i class="far fa-file fa-4x"></i></a>
+                            </div>
                         </div>
                         
 
 
                     </div>
                 </div>
-            </div>
+            
             </a>
             <!-- Welcome -->
         <a id ="about me">
@@ -95,8 +98,52 @@
                 </div>
             </div>
             </a>
+        
+    <div class = "container-fluid container-fluid-body">
+        
+        <!--Skills-->
+        <a id = "skills">
+            <div class = "container-fluid padding">
+                <div class = "row skills">
+                    <div class = "col-12 text-center">
+                        <h1 class = "display-4">Skills</h1>
+                        <hr>
+                    </div>
+                    <div class = "row col-6">
+                        <div class = "pie chart">
+                            <img src="img/pie_chart_lan.png">
+                        </div>
+                    </div>
+                    <div class = "row col-2">    
+                    </div>
+                    <div class = "row col-4">
+                        <div class = "skills-text">
+                            <p>
+                                While I am the most adept in Java, I pride myself in being able to learn new languages and master them at a quick pace.
+                                I have put extensive time into both Python and SQL, while also being relatively comfortable in both SQL and C++. Besides languages,
+                                I also have experience in both Windows and Linux, and also am proficient at using software such as Android Studio, Unity, and Git.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Work Experience
+            <div class = "container-fluid padding">
+                <div class="row work">
+                    <div class = "col-12 text-center">
+                        <h1 class = "display-4">Work Experience</h1>
+                        <hr>
+                    </div>
+                    <div class = "row ">
+
+                    </div>
+                </div>
+            </div>
+            -->
         <!-- Image Slider-->
+        <a id = "projects">
         <div id="slides" class ="carousel slide" data-ride="carousel">
+            <h1 class = "display-4 text-center">Projects (UNDER DEVELOPMENT)</h1>
             <ol class= "carousel-indicators">
                 <li data-target="#slides" data-slide-to="0"></li>
                 <li data-target="#slides" data-slide-to="1"></li>
@@ -122,7 +169,31 @@
                 <span class="sr-only">Next</span>
               </a>
         </div>
-        <!-- Jumbotron-->
+        </a>
+    </div>
+    
+    <!-- Footer -->
+    <a id = "contact me">
+    <div class = "container-fluid container-fluid-footer row">
+        <div class = "row col-4">
+            <p>Contact Me:</p>
+                <ol>(732)-986-9996</ol>
+                <ol>mark.stanik@gmail.com</ol>
+                <ol>mark.stanik@rutgers.edu</ol>
+        </div>
+        <div class = "row col-6">
+            <p>This website was created from scratch using HTML and CSS while being hosted on the Google Cloud Platform. For more information,
+                click on the button to go to the git repository.
+            </p>
+            <a href="https://github.com/markstanik/personalwebsite">
+                <button type="button" class = "btn btn-secondary">GitHub</button>
+                </a> 
+        </div>
+    </div>
+    </a>
+        
+
+        <!-- Jumbotron
         <div class="container-fluid">
             <div class="row jumbotron">
                 <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
@@ -134,33 +205,11 @@
                 </div>
             </div>
         </div>
+    -->
         
-        <!-- Work Experience-->
-        <a id = "work experience">
-            <div class = "container-fluid padding">
-                <div class = "row welcome text-center">
-                    <div class = "col-6">
-                        <h1 class = "display-4">Work</h1>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <!-- Background -->
-        <figure>
-            <div class = "fixed-wrap">
-                <div id = "fixed"></div>
-            </div>
-        </figure>
-        <!-- Helpful Links -->
-        <div class ="container-fluid padding">
-            <div class="row welcome text-center">
-                <div class="col-12">
-                    <h1 class = "display-4">Links</h1>
-                </div>
-                <hr>
-            </div>    
-        </div>
-        <!-- Card Links -->
+        
+        
+        <!-- Card Links 
         <div class ="container-fluid padding">
             <div class ="row row-card">
                 <div class = "col-md-3">
@@ -194,8 +243,14 @@
                 </div>
             </div>
         </div>
-
-        
+    -->
+    <!-- Background 
+    <figure>
+        <div class = "fixed-wrap">
+            <div id = "fixed"></div>
+        </div>
+    </figure>
+-->    
             
 
 <!-- JS files: jQuery first, then Popper.js, then Bootstrap JS -->
